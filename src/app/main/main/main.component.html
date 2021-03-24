@@ -1,0 +1,129 @@
+<div class="parallax" [style.height.px]="windowSize" #start>
+    <div class="parallax__card">
+        <h1>Catastro de Redes para abastecimiento de Hidrocarburos</h1>
+        <h2>Propuesta de proyecto - Proceso de selección Ecopetrol</h2>
+        <button class="button" (click)="next(first)">Conocer más</button>
+    </div>
+</div>
+
+<div class="content" [style.height.px]="windowSize" #first>
+    <div class="content__card">
+        <h1>Descripción</h1>
+        <p>
+            Proyecto enfocado en la integración, mantenimiento y actualización de la información para la toma de decisiones a través de catastro de redes; Esto con el fin de tener procesos eficientes para el abastecimiento de hidrocarburos y permitir el seguimiento
+            a través de la implementación de servicios web geográficos.
+        </p>
+        <h2>Catastro de Redes</h2>
+        <p>
+            es un sistema de registro y archivo que contiene información relacionada con todos los detalles de ubicación y especificaciones técnicas de los elementos de una red y se utiliza como un instrumento para el análisis, evaluación, formulación y desarrollo
+            de programas para la toma de decisiones.
+        </p>
+        <h2>Etapas</h2>
+        <swiper effect="fade" [pagination]="{ clickable: true, el: '.swiper-pagination' }">
+            <ng-template swiperSlide>
+                <div class="swiperCard">
+                    <h3>Construcción de Bases de Datos</h3>
+                    <span>En esta etapa se construye el modelo de base de datos que
+            almacenará la documentación recolectada en campo, esta dependerá de
+            los requerimientos del cliente y de las características de las
+            redes.
+          </span>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="swiperCard">
+                    <h3>Etapa de Inspección</h3>
+                    <span>
+            Levantamiento de información en campo de todo lo correspondiente al
+            abastecimiento y almacenamiento del producto (medidas, materiales,
+            tipos de piezas, estado físico) como productos se pueden tener
+            fotografías, fichas y planos.</span
+          >
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="swiperCard">
+          <h3>Etapa de Edición</h3>
+          <span>
+            Se procede a editar y almacenar la información obtenida de la etapa
+            anterior en las bases de datos, si esta previamente existía se
+            realiza una corroboración de información.</span
+          >
+        </div>
+      </ng-template>
+      <ng-template swiperSlide>
+        <div class="swiperCard">
+          <h3>Integración de los SIG</h3>
+          <span
+            >Se relaciona la información recolectada y editada a la información
+            geográfica digital, esto se registra en las Geodatabase Corporativas
+            de la entidad.</span
+          >
+        </div>
+      </ng-template>
+    </swiper>
+    <div class="swiper-pagination"></div>
+    <button class="button" (click)="next(second)">Continuar</button>
+  </div>
+</div>
+
+<div class="parallax-second"></div>
+<div class="content" [style.height.px]="windowSize" #second>
+  <div class="content__card">
+    <h1>Arquitectura de la solución</h1>
+    <h3>
+      Las Geodatabases guardan datos espaciales y no espaciales. ArcGIS da
+      opciones para incluir una geodatabase corporativa en un servicio de base
+      de datos de Amazon con su sitio de ArcGIS GIS Server independiente. Esta
+      se agrega como base de datos administrada al sitio de GIS Server donde
+      Puede publicar datos desde las fuentes de datos locales y las aplicaciones
+      de escritorio en su sitio de GIS Server en AWS y ArcGIS copiará los datos
+      en la base de datos administrada.
+    </h3>
+    <div class="setImage">
+      <img
+        src="../../../assets/architecture.jpg"
+        alt="architecture"
+        class="image"
+      />
+    </div>
+    <button class="button" (click)="next(third)">Continuar</button>
+  </div>
+</div>
+<div class="parallax-third"></div>
+<div class="content" [style.height.px]="windowSize" #third>
+  <div class="content__card">
+    <h1>Catastro de Redes para abastecimiento de Hidrocarburos</h1>
+    <h2>
+      Con el avance de las tecnologías, se ha convertido en una necesidad el uso
+      de nuevas soluciones para dar alcance a los objetivos principales de cada
+      organización. En Ecopetrol, el compromiso de generar un bienestar social y
+      ambiental, sumado a la optimización de procesos y reducción de costos, no
+      es la excepción y así debemos enfocar nuestros fuerzos en obtener los
+      mejores resultados día a día.
+    </h2>
+    <div class="setImage">
+      <img
+        alt="Ecopetrol"
+        src="../../../assets/Ecopetrol-logo-575EE75C00-seeklogo.com.png"
+        class="image__dos"
+      />
+    </div>
+    <button class="button" (click)="next(start)">Finalizar</button>
+  </div>
+  <footer class="content__card__footer">
+    Esperanza María Gualdrón Prieto
+    <br />
+    <hr />
+    Ingeniera Catastral y Geodesta <br />
+    Especialista en Avalúos
+    <br />
+    <a href="https://www.linkedin.com/in/esperanza-gualdron-599a55189/">
+      <img
+        alt="Linkedin"
+        src="../../../assets/linkeding.png"
+        class="content__card__footer__img"
+      />
+    </a>
+  </footer>
+</div>

@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ecopetrol-page"
+    }
+  },
+  "defaultProject": "ecopetrol-page",
+  "cli": {
+    "analytics": false
+  }
 }

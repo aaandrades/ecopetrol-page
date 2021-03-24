@@ -1,0 +1,12 @@
+.header {
+    background-color: #306B34;
+    width: 100%;
+    height: 35px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(1rem);
+    &__title {
+        font-size: 22px;
+    }
+}

@@ -1,27 +1,25 @@
-# EcopetrolPage
+## :rocket: Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.1.
+![aaandrades](https://img.shields.io/badge/-Frontend-orange)
+![Build](https://img.shields.io/badge/-Working-brightgreen)
 
-## Development server
+### :memo: Description
+A brew description of the project that you're working on.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### :sparkles: Features
+Describe what features you include in the project.
 
-## Code scaffolding
+### :alembic: Core Concepts
+Explain what concepts you use like service, redux, patterns, etc.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### :construction: Made with
+What technologies you use to create the project.
 
-## Build
+### :hammer: Demostration
+Put here the video or link to demo the App.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### :bulb: Run the App
+Explain if the app can run (Docker).
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+*If you want to contribute to improve the project, please create your PR and write me :speech_balloon: . After it, sit down and take a beer, you deserve it!* :beers: .
+*This project is for academic purposes only, all right reserved. Andrés Andrade 2021 :copyright::registered:*

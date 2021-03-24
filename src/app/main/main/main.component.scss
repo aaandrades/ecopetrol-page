@@ -1,0 +1,140 @@
+.parallax {
+    background-image: url("../../../assets/wallpaper.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__card {
+        border-radius: 16px;
+        margin-top: 50px;
+        width: 65%;
+        backdrop-filter: blur(1rem);
+        color: white;
+        padding: 55px;
+        text-align: center;
+        -webkit-box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+    }
+}
+
+.parallax-second {
+    background-image: url("../../../assets/wallpaper2.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-third {
+    background-image: url("../../../assets/wallpaper3.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    background-image: url("../../../assets/wallpaper_main.jpg");
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__head {
+        color: white;
+        padding-top: 20px;
+    }
+    &__card {
+        border-radius: 16px;
+        width: 60%;
+        backdrop-filter: blur(1rem);
+        color: white;
+        margin-top: 10%;
+        padding: 55px;
+        text-align: justify;
+        -webkit-box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+        box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+        &__footer {
+            text-align: center;
+            color: white;
+            margin-top: 25px;
+            font-size: 17px;
+            font-weight: 600;
+            &__img {
+                margin-top: 10px;
+                width: 10%;
+            }
+        }
+    }
+}
+
+.button {
+    margin-top: 50px;
+    font-size: 15px;
+    background-color: #3940ad;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    -webkit-box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 6px 16px -4px rgba(0, 0, 0, 0.75);
+}
+
+.button:hover {
+    font-weight: bold;
+    box-shadow: 12px 12px 16px -4px rgba(0, 0, 0, 0.75);
+    transform: translate3d(0px, -3px, -3px);
+}
+
+h1 {
+    font-size: 39px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    text-justify: auto;
+}
+
+swiper {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+.swiperCard {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    color: #3940ad;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+
+.setImage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    &__dos {
+        width: 50%;
+    }
+}
