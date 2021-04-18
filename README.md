@@ -4,22 +4,23 @@
 ![Build](https://img.shields.io/badge/-Working-brightgreen)
 
 ### :memo: Description
-A brew description of the project that you're working on.
+Simple SPA with static content for a proposal project.
 
 ### :sparkles: Features
-Describe what features you include in the project.
+- Forms
+- Parallax
+- Blulr desing 
 
 ### :alembic: Core Concepts
-Explain what concepts you use like service, redux, patterns, etc.
+- Single SPA content 
 
 ### :construction: Made with
-What technologies you use to create the project.
+- SwiperJs (https://swiperjs.com/)
+- Angular 10.
 
 ### :hammer: Demostration
-Put here the video or link to demo the App.
+You can see the project here: https://aaandrades.github.io/ecopetrol-page/
 
-### :bulb: Run the App
-Explain if the app can run (Docker).
 
 *If you want to contribute to improve the project, please create your PR and write me :speech_balloon: . After it, sit down and take a beer, you deserve it!* :beers: .
 *This project is for academic purposes only, all right reserved. Andrés Andrade 2021 :copyright::registered:*
